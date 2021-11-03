@@ -26,7 +26,7 @@ class App {
     private _createScene(canvas: HTMLCanvasElement, engine: Engine): Scene {
         const scene = new Scene(engine);
 
-        // Create round
+        // Create ground
         const ground = MeshBuilder.CreateGround('ground', { height: 301, width: 100 }, scene);
 
         // Set up the overarching camera
